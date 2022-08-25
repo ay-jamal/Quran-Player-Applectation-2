@@ -18,6 +18,7 @@ function getSurah() {
           <div>
            <p>${data.data[i].asma.ar.long}</p>
            <p>${data.data[i].asma.en.long}</p>
+           <p>عدد  الآيات :  ${data.data[i].ayahCount} , <span>مكان النزول :  ${data.data[i].type.ar} </span> </p>
            
            
            </div>  
