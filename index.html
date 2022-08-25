@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quran Player</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="player">
+        <div class="ayah">اضغط على الصوره للاستماع</div>
+        <audio class="quranPlayer" controls>
+          <source src="audio/001.mp3" />
+        </audio>
+        <div class="buttons">
+          <div class="icon next"><i class="fas fa-forward"></i></div>
+          <div class="icon play"><i class="fas fa-play"></i></div>
+          <div class="icon prev"><i class="fas fa-backward"></i></div>
+        </div>
+      </div>
+      <div class="surah"></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
